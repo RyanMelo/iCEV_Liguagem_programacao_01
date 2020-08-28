@@ -1,4 +1,4 @@
-package exercico_pratica.lista_02;
+package exercicios_pratica.lista_02;
 import java.util.Scanner;
 
 public class quest_01 {

@@ -1,7 +1,7 @@
 package exercicios_pratica.lista_01;
 import java.util.Scanner;
 
-public class Quest_03 {
+public class quest_03 {
     public static void main(String[] args) {
         double excesso, multa = 0;
 

@@ -1,7 +1,7 @@
 package exercicios_pratica.lista_01;
 import java.util.Scanner;
 
-public class Quest_04 {
+public class quest_04 {
     public static void main(String[] args) {
         // esta e a formula a ser calculada S = 1 + 1/1! + ½! + 1/3! + 1 /N! 
 

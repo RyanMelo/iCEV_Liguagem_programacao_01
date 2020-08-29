@@ -1,7 +1,7 @@
 package exercicios_pratica.lista_02;
 import java.util.Scanner;
 
-public class Quest_02 {
+public class quest_02 {
     public static void main(String[] args) {
         Scanner entrada  = new Scanner(System.in);
 

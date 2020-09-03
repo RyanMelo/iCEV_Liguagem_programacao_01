@@ -7,7 +7,7 @@ Professor: <a href="https://github.com/alcemirsantos">Alcemir Santos</a>
 
 Estrutura de Pastas:
 
-- `src`: contem projetos e exercicios praticos
+- `src/exercicios_pratica`: contém listas de exercicios passado durante as aulas.
 
 vlw, flw!🤙🏽🚀
 

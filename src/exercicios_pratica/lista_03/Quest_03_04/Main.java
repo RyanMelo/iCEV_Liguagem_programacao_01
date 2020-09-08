@@ -8,8 +8,8 @@ public class Main {
         Quadrado q3 = new Quadrado(5);
 
         System.out.println("Quadrado q1: Area = " + q1.area() + " / Perimetro = " + q1.perimetro());
-        System.out.println("Quadrado q1: Area = " + q2.area() + " / Perimetro = " + q2.perimetro());
-        System.out.println("Quadrado q1: Area = " + q3.area() + " / Perimetro = " + q3.perimetro());
+        System.out.println("Quadrado q2: Area = " + q2.area() + " / Perimetro = " + q2.perimetro());
+        System.out.println("Quadrado q3: Area = " + q3.area() + " / Perimetro = " + q3.perimetro());
 
     }
 }

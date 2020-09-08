@@ -6,7 +6,7 @@ public class Quadrado {
     double lado;
 
     public Quadrado(double valorLado) {
-        lado = valorLado;
+        this.lado = valorLado;
     }
 
     public double area() {
@@ -15,7 +15,7 @@ public class Quadrado {
     }
 
     public double perimetro() {
-        double perimetro = 4 * lado;
+        double perimetro = 4 * this.lado;
         return perimetro;
     }
 

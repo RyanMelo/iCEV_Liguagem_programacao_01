@@ -1,4 +1,4 @@
-package exercicios_pratica.lista_03.Quest_05_06;
+package exercicios_pratica.lista_03.Quest_05_06_07;
 
 public class Estoque {
     

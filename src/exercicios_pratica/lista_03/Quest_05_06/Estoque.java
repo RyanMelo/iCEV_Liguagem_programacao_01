@@ -33,7 +33,7 @@ public class Estoque {
     }
 
     public String mostra() {
-        return "Nome:  " + this.nome + " | " + "Quantidade Atual: " + this.qtdAtual;
+        return "Nome:  " + this.nome + " | " + "Quantidade Atual: " + this.qtdAtual + " | " + "Quantidade Minima: " + this.qtdMinima;
     }
 
     public boolean precisaRepor() {

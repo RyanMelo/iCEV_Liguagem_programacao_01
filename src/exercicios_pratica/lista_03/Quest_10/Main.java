@@ -24,8 +24,8 @@ public class Main {
 
         int opcao = -1;
         do{
-            System.out.println("\n\n1. Atualizar dado");
-            System.out.println("2. Listar produto");
+            System.out.println("\n\n1. Atualizar dado,");
+            System.out.println("2. Listar produto,");
             System.out.println("3. Sair");
             System.out.print("Opção: ");
             opcao = entrada.nextInt();

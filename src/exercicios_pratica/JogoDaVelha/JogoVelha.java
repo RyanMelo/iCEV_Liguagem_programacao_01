@@ -97,14 +97,20 @@ public class JogoVelha {
         vetorResult[7] = matrizJogo[0][2] + matrizJogo[1][1] + matrizJogo[2][0];
 
         for(int i = 0; i < 8; i++) {
-            if(vetorResult[i] == "xxx") {
-                resultado = vetorResult[i] + "Jogador 1 VENCEU!";
-            } else if (vetorResult[i] == "ooo") {
-                resultado = vetorResult[i] + "Jogador 2 VENCEU!";
-            } else {
-                resultado = vetorResult[i] + i + "EMPATE!";
+            
+            switch (vetorResult[i]) {
+                case "xxx":
+                    resultado = "Jogador 1 VENCEU!";
+                    break;
+                
+                case "ooo":
+                    resultado = "Jogador 2 VENCEU!";
+                    break;
+            
+                default:
+                    resultado = "Empate";
+                    break;
             }
-            //System.out.println(vetorResult[i]);
         }
         System.out.println(resultado);
     }

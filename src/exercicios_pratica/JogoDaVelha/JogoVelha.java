@@ -31,47 +31,7 @@ public class JogoVelha {
                 System.out.print("Digite o valor x ou o: ");
                 valorXouO = entrada.nextLine();
 
-                switch (posicao) {
-                    case 1:
-                        matrizJogo[0][0] = valorXouO;
-                        break;
-    
-                    case 2:
-                        matrizJogo[0][1] = valorXouO;
-                        break;
-    
-                    case 3:
-                        matrizJogo[0][2] = valorXouO;
-                        break;
-    
-                    case 4:
-                        matrizJogo[1][0] = valorXouO;
-                        break;
-    
-                    case 5:
-                        matrizJogo[1][1] = valorXouO;
-                        break;
-    
-                    case 6:
-                        matrizJogo[1][2] = valorXouO;
-                        break;
-    
-                    case 7:
-                        matrizJogo[2][0] = valorXouO;
-                        break;
-    
-                    case 8:
-                        matrizJogo[2][1] = valorXouO;
-                        break;
-    
-                    case 9:
-                        matrizJogo[2][2] = valorXouO;
-                        break;
-                
-                    default:
-                        System.out.println("Essa Posição não existe, Tente novamente!");
-                        break;
-                }
+                anexarValorAPosicao(posicao, valorXouO);
 
             } else {
                 System.out.println("Essa Posição não existe, Tente novamente!");
@@ -113,6 +73,51 @@ public class JogoVelha {
             }
         }
         System.out.println(resultado);
+    }
+
+    protected void anexarValorAPosicao(int pos, String valor) {
+        switch (pos) {
+            case 1:
+                matrizJogo[0][0] = valor;
+                break;
+
+            case 2:
+                matrizJogo[0][1] = valor;
+                break;
+
+            case 3:
+                matrizJogo[0][2] = valor;
+                break;
+
+            case 4:
+                matrizJogo[1][0] = valor;
+                break;
+
+            case 5:
+                matrizJogo[1][1] = valor;
+                break;
+
+            case 6:
+                matrizJogo[1][2] = valor;
+                break;
+
+            case 7:
+                matrizJogo[2][0] = valor;
+                break;
+
+            case 8:
+                matrizJogo[2][1] = valor;
+                break;
+
+            case 9:
+                matrizJogo[2][2] = valor;
+                break;
+        
+            default:
+                System.out.println("Essa Posição não existe, Tente novamente!");
+                break;
+        }
+
     }
 
 }
